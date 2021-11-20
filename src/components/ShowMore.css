@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
+  
+ .showshow{
+     display: flex;
+     margin:25px
+
+ }
+ 
+ .logoss{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+  }
+  .logoss img{
+    width: 278px;
+  height: 115px;
+  }
+  .logoss span{
+    text-align: right;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 10px;
+  color: #484848;
+  }
+  
+  
+  .inputss{
+    
+    width: 100%;
+    flex: 1;
+    margin-top: 44px;
+  }
+  
+  .inputss input{
+    width: 709px;
+    height: 46px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+  
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #888888;
+    margin-right: 16px;
+  }
+  
+  .inputss input:hover{
+    background-color: #f3f3f3;
+  }
+  
+  .inputss button{
+    background-color: #204080;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 138px;
+  height: 46px;
+  }
+  
+  .inputss button:hover{
+    background-color: #4f75c2;
+  }
+
+  .userss{
+
+    width: 709px;
+    height: 100%;
+    margin-left: 25%;
+    background: #FFFFFF;
+    border: 1px solid #484848;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 18px;
+  
+    display: flex;
+    flex-direction: column;
+    }
+
+.selected{
+  text-align: right;
+  max-width: 1050px;
+}    
+
+.selected select{
+  padding: 5px;
+}
+
+.hovers:hover{
+  background-color:#888888;
+}
+
+option:hover{
+  background-color: #888888;
+}
